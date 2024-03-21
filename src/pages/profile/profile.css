@@ -1,0 +1,47 @@
+.updateForm{
+align-items: start;
+}
+
+.updateForm input{
+    width: 25rem;
+    padding-block: .6rem;
+    padding-inline: 1em;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.profileContainer{
+    padding-block: 3rem;
+    padding-inline: 2rem;
+    border-radius: 1rem;
+    border: 1px solid red;
+}
+
+.profileBtnDiv button{
+    width: 100%;
+    font-size: 1.2em;
+    padding-block: .4em;
+    border-radius: 1rem;
+    background-color: transparent;
+    position: relative;
+    color: black;
+    font-weight: 500;
+}
+
+.profileBtnDiv button::before{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 30%;
+    border-radius: 1rem;
+    background-color: rgba(255, 0, 0, 0.5);
+    transition: all .6s;
+}
+
+.profileBtnDiv button:hover::before{
+    width: 100%;
+    background-color: red;
+}

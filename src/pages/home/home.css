@@ -1,0 +1,24 @@
+
+
+
+.btnContainer button{
+    background-color: white;
+    border: 1px solid darkorange;
+    font-size: 1.3em;
+    padding-block: .7rem;
+    padding-inline: 1rem;
+    border-radius: 1.4rem;
+    margin-right: 1rem;
+    transition: .6s all;
+    margin-top: 1rem;
+}
+
+.btnContainer button:hover{
+    background-color: orange;
+}
+
+.productContainer{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-inline: 3rem;
+}

@@ -1,0 +1,20 @@
+
+.landingDiv{
+    background: url('https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074076.jpg?w=1380&t=st=1711028054~exp=1711028654~hmac=da5621ad1cf8e3ee14330033f5744e4eda584eda436a41fb85b84e3fb6a0b9e8');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.landingDiv .des{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.landingDiv .des h1{
+    font-size: 3em;
+    font-weight: bold;
+}

@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 3rem !important;
+    padding-block: 1rem;
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+}
+
+
+.navbar div input{
+    width: 35rem;
+    height: 2.7rem;
+    border-radius: 1rem;
+    border: 0;
+    padding-inline-start: 1em;
+    background-color: rgba(0, 0, 0, 0.241);
+    color: white;
+}
+
+.navbar div input::placeholder{
+    color: white;
+}

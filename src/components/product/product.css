@@ -1,0 +1,25 @@
+.product{
+    border: 1px solid darkorange;
+    border-radius: 1rem;
+}
+
+.buy{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#buy-btn{
+    margin-left: auto;
+    background-color: orange;
+    width: 50px;
+    height: 35px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#buy-btn:hover i{
+    color: white;
+}
