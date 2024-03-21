@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+@media(max-width:991px){
+    
+.navbar div input{
+    width: 100% !important;
+}
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
